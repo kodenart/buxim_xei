@@ -1,2 +1,14 @@
-./pubspeck.lock
-./build/
+# it forces to test the aplication with latest compatible packages
+./pubspec.lock
+
+# flutter tools
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# vscode
+.vscode/
