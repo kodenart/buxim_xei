@@ -1,0 +1,58 @@
+{
+  "data": [
+    {
+      "id": "idfoda1",
+      "name": "Cebola",
+      "quantity": 5,
+      "ideal_quantity": 6
+    },
+    {
+      "id": "idfoda2",
+      "name": "Carne",
+      "quantity": 2,
+      "ideal_quantity": 3
+    },
+    {
+      "id": "idfoda3",
+      "name": "Coentro",
+      "quantity": 1,
+      "ideal_quantity": 1
+    },
+    {
+      "id": "idfoda4",
+      "name": "Batata",
+      "quantity": 3,
+      "ideal_quantity": 4
+    },
+    {
+      "id": "idfoda5",
+      "name": "Arroz",
+      "quantity": 2,
+      "ideal_quantity": 3
+    },
+    {
+      "id": "idfoda6",
+      "name": "Frango",
+      "quantity": 3,
+      "ideal_quantity": 5
+    },
+    {
+      "id": "idfoda7",
+      "name": "Azeitona",
+      "quantity": 1,
+      "ideal_quantity": 2
+    },
+    {
+      "id": "idfoda8",
+      "name": "Batata Doce",
+      "quantity": 3,
+      "ideal_quantity": 6
+    },
+    {
+      "id": "idfoda9",
+      "name": "Banana",
+      "quantity": 6,
+      "ideal_quantity": 12
+    }
+  ]
+}
