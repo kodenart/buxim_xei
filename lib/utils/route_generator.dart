@@ -1,10 +1,10 @@
-import 'package:buxim_xei/data/ingredient_repository.dart';
-import 'package:buxim_xei/data/recipe_repository.dart';
-import 'package:buxim_xei/screens/home_screen.dart';
-import 'package:buxim_xei/screens/ingredient_details_screen.dart';
-import 'package:buxim_xei/screens/ingredients_screen.dart';
-import 'package:buxim_xei/screens/recipes_screen.dart';
-import 'package:buxim_xei/screens/shopping.dart';
+import 'package:buxim_xei/data/repositories/ingredient_repository.dart';
+import 'package:buxim_xei/data/repositories/recipe_repository.dart';
+import 'package:buxim_xei/screens/home/home_screen.dart';
+import 'package:buxim_xei/screens/ingredient_detail/ingredient_details_screen.dart';
+import 'package:buxim_xei/screens/ingredients/ingredients_screen.dart';
+import 'package:buxim_xei/screens/recipes/recipes_screen.dart';
+import 'package:buxim_xei/screens/shopping/shopping.dart';
 import 'package:buxim_xei/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 
@@ -18,10 +18,7 @@ class RouteGenerator {
       case AppRoutes.recipes:
         return MaterialPageRoute(builder: (_) => const RecipesScreen());
       case AppRoutes.ingredients:
-        return MaterialPageRoute(
-            builder: (_) => IngredientsScreen(
-                  ingredientRepository: IngredientRepository(),
-                ));
+        return MaterialPageRoute(builder: (_) => IngredientsScreen());
       case AppRoutes.ingredientsDetails:
         return MaterialPageRoute(
             builder: (_) => const IngredientDetailsScreen());

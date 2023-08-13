@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../components/loading_widget.dart';
+import '../../components/loading_widget.dart';
 
 class RecipesScreen extends StatefulWidget {
   const RecipesScreen({super.key});

@@ -2,7 +2,10 @@ import 'package:buxim_xei/utils/app_routes.dart';
 import 'package:buxim_xei/utils/route_generator.dart';
 import 'package:flutter/material.dart';
 
+import 'container/container_di.dart';
+
 void main() {
+  configureDependencies();
   runApp(const MyApp());
 }
 

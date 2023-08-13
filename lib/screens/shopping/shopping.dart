@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../components/loading_widget.dart';
+import '../../components/loading_widget.dart';
 
 class ShoppingScreen extends StatefulWidget {
   const ShoppingScreen({super.key});
