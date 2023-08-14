@@ -1,5 +1,6 @@
 import 'package:buxim_xei/screens/ingredients/ingredients_cubit.dart';
 import 'package:buxim_xei/screens/ingredients/ingredients_state.dart';
+import 'package:buxim_xei/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../components/loading_widget.dart';
@@ -78,12 +79,20 @@ class _IngredientTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
+      onTap: () => _selectIngredient(context),
       title: Text(ingredient.name),
       subtitle: Text(ingredient.quantity.toString()),
       trailing: GestureDetector(
         onTap: () => {},
         child: const Icon(Icons.edit),
       ),
+    );
+  }
+
+  void _selectIngredient(BuildContext ctx) {
+    Navigator.of(ctx).pushNamed(
+      AppRoutes.ingredientsDetails,
+      arguments: ingredient,
     );
   }
 }

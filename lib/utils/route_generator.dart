@@ -18,10 +18,11 @@ class RouteGenerator {
       case AppRoutes.recipes:
         return MaterialPageRoute(builder: (_) => const RecipesScreen());
       case AppRoutes.ingredients:
-        return MaterialPageRoute(builder: (_) => IngredientsScreen());
+        return MaterialPageRoute(builder: (ctx) => IngredientsScreen());
       case AppRoutes.ingredientsDetails:
         return MaterialPageRoute(
-            builder: (_) => const IngredientDetailsScreen());
+            settings: settings,
+            builder: (ctx) => const IngredientDetailsScreen());
       case AppRoutes.shopping:
         return MaterialPageRoute(builder: (_) => const ShoppingScreen());
       default:

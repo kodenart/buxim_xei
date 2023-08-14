@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.buxim_xei">
    <application
-        android:label="Buxim Xei"
+        android:label="Storage"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

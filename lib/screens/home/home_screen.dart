@@ -1,4 +1,4 @@
-import 'package:buxim_xei/components/buxim_navigation_bar.dart';
+import 'package:buxim_xei/components/storage_navigation_bar.dart';
 import 'package:buxim_xei/container/container_di.dart';
 import 'package:buxim_xei/interactors/ingredient_interactor.dart';
 import 'package:buxim_xei/screens/ingredients/ingredients_screen.dart';
